@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <footer>
-           SOY UN FOOTER 
+           FOOTER 
         </footer>
     );
 };
