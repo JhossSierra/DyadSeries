@@ -13,7 +13,8 @@ const Header = () => {
 const [toggle,setToggle]=useState('false')
 
     const sendToggle=(toggle)=>{
-     toggle===true? setToggle('true'):setToggle('false')
+     if (toggle===true){setToggle('true')}
+     else{setToggle('false')}
     }
 
  
@@ -21,7 +22,7 @@ const [toggle,setToggle]=useState('false')
     return (
         <header>
         <div className='headerContainer'>
-        <div><a className='LOGO' href="">Dyad <span className='icon'><BsStars/></span></a></div>
+        <div><a className='LOGO' href="">Dyad <span className='Starsicon'><BsStars/></span></a></div>
 
         <nav>
             

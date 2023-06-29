@@ -21,14 +21,14 @@ header{
     text-decoration: none;
     color: #ffffff;
     font-family: 'Lavishly Yours', cursive;
-    font-size: 4vw;
+    font-size: 3.5vw;
     display: flex;
     align-items: center;
 }
 
 .links{
     line-height:1.5em ;
-    font-size: 3vw;
+    font-size: 2vw;
     text-decoration: none;
     color: #ffffff;
     display: inline-block;
@@ -70,7 +70,7 @@ li{
     margin: 0 3vw;
     height: 6.5vw ;
 }
-.icon{
+.Starsicon{
    
     position: relative;
     top: 0;
@@ -82,6 +82,7 @@ nav{
 }
 .barsIcon {
      display:none;
+    width: 5vw;
      
 }
 
@@ -90,7 +91,8 @@ nav{
 @media (max-width:768px) {
     .barsIcon{
         display: inherit;
-        filter: invert(100%) 
+        filter: invert(100%);
+
     }
     
     li {
@@ -113,11 +115,11 @@ nav{
     }
     .false{
         transform: translateX(0vw);
-        transition: transform .9s ease-in-out;
+        transition: transform .6s ease-in-out;
     }
     .true{
     transform: translateX(-18vw);
-    transition: transform .9s ease-in-out;
+    transition: transform .6s ease-in-out;
     }
     .links::after{
         
